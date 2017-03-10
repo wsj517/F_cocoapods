@@ -14,8 +14,8 @@
 		702DE30C1E7135AC006B01AA /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 702DE30A1E7135AC006B01AA /* LaunchScreen.storyboard */; };
 		702DE3171E7135AD006B01AA /* Swift_BaseTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 702DE3161E7135AD006B01AA /* Swift_BaseTests.swift */; };
 		702DE3221E7135AD006B01AA /* Swift_BaseUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 702DE3211E7135AD006B01AA /* Swift_BaseUITests.swift */; };
-		70989A151E728AD9007D664F /* Customer_CameraViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 70989A131E728AD9007D664F /* Customer_CameraViewController.swift */; };
-		70989A161E728AD9007D664F /* Video_Module.podspec in Resources */ = {isa = PBXBuildFile; fileRef = 70989A141E728AD9007D664F /* Video_Module.podspec */; };
+		702DE3411E714395006B01AA /* Customer_CameraViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 702DE33F1E714395006B01AA /* Customer_CameraViewController.swift */; };
+		702DE3421E714395006B01AA /* Video_Module.podspec in Resources */ = {isa = PBXBuildFile; fileRef = 702DE3401E714395006B01AA /* Video_Module.podspec */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -49,8 +49,8 @@
 		702DE31D1E7135AD006B01AA /* Swift_BaseUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = Swift_BaseUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		702DE3211E7135AD006B01AA /* Swift_BaseUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Swift_BaseUITests.swift; sourceTree = "<group>"; };
 		702DE3231E7135AD006B01AA /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		70989A131E728AD9007D664F /* Customer_CameraViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Customer_CameraViewController.swift; sourceTree = "<group>"; };
-		70989A141E728AD9007D664F /* Video_Module.podspec */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = Video_Module.podspec; sourceTree = "<group>"; };
+		702DE33F1E714395006B01AA /* Customer_CameraViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Customer_CameraViewController.swift; sourceTree = "<group>"; };
+		702DE3401E714395006B01AA /* Video_Module.podspec */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = Video_Module.podspec; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -81,7 +81,6 @@
 		702DE2F51E7135AC006B01AA = {
 			isa = PBXGroup;
 			children = (
-				70989A111E728AD9007D664F /* Video_Module */,
 				702DE3001E7135AC006B01AA /* Swift_Base */,
 				702DE3151E7135AD006B01AA /* Swift_BaseTests */,
 				702DE3201E7135AD006B01AA /* Swift_BaseUITests */,
@@ -102,6 +101,7 @@
 		702DE3001E7135AC006B01AA /* Swift_Base */ = {
 			isa = PBXGroup;
 			children = (
+				702DE33D1E714395006B01AA /* Video_Module */,
 				702DE3011E7135AC006B01AA /* AppDelegate.swift */,
 				702DE3031E7135AC006B01AA /* ViewController.swift */,
 				702DE3051E7135AC006B01AA /* Main.storyboard */,
@@ -130,19 +130,19 @@
 			path = Swift_BaseUITests;
 			sourceTree = "<group>";
 		};
-		70989A111E728AD9007D664F /* Video_Module */ = {
+		702DE33D1E714395006B01AA /* Video_Module */ = {
 			isa = PBXGroup;
 			children = (
-				70989A121E728AD9007D664F /* Video_Module */,
-				70989A141E728AD9007D664F /* Video_Module.podspec */,
+				702DE33E1E714395006B01AA /* Video_Module */,
+				702DE3401E714395006B01AA /* Video_Module.podspec */,
 			);
 			path = Video_Module;
 			sourceTree = "<group>";
 		};
-		70989A121E728AD9007D664F /* Video_Module */ = {
+		702DE33E1E714395006B01AA /* Video_Module */ = {
 			isa = PBXGroup;
 			children = (
-				70989A131E728AD9007D664F /* Customer_CameraViewController.swift */,
+				702DE33F1E714395006B01AA /* Customer_CameraViewController.swift */,
 			);
 			path = Video_Module;
 			sourceTree = "<group>";
@@ -254,7 +254,7 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				70989A161E728AD9007D664F /* Video_Module.podspec in Resources */,
+				702DE3421E714395006B01AA /* Video_Module.podspec in Resources */,
 				702DE30C1E7135AC006B01AA /* LaunchScreen.storyboard in Resources */,
 				702DE3091E7135AC006B01AA /* Assets.xcassets in Resources */,
 				702DE3071E7135AC006B01AA /* Main.storyboard in Resources */,
@@ -283,7 +283,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				702DE3041E7135AC006B01AA /* ViewController.swift in Sources */,
-				70989A151E728AD9007D664F /* Customer_CameraViewController.swift in Sources */,
+				702DE3411E714395006B01AA /* Customer_CameraViewController.swift in Sources */,
 				702DE3021E7135AC006B01AA /* AppDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
